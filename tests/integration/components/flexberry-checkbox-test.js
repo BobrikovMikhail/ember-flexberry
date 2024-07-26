@@ -8,7 +8,7 @@ import hbs from 'htmlbars-inline-precompile';
 import { render, click } from '@ember/test-helpers';
 import { setupRenderingTest } from 'ember-qunit';
 
-module('flexberry-checkbox', function(hooks) {
+module('Integration | Component | flexberry-checkbox', function(hooks) {
   setupRenderingTest(hooks);
 
   test('Component renders properly', async function(assert) {
