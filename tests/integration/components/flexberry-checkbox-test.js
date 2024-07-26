@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import { run } from '@ember/runloop';
 import { typeOf, isNone } from '@ember/utils';
-import { get } from '@ember/object';
 import { A } from '@ember/array';
 import { module, test } from 'qunit';
 import hbs from 'htmlbars-inline-precompile';
